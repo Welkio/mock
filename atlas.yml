@@ -1,0 +1,13 @@
+version: '1.0'
+base:
+  system: Atlas
+  description: The elixir version.
+  team: Space Jam
+  icon: :atlas-bro.jpg
+  tags: directory, microservices, wework technology
+  docs: https://tech-docs.weworkers.io/apis/welkio-access.html
+contact:
+  slack: sj-atlas, space-jam
+infra:
+  dependencies: ['weconnect/id-api']
+  deployed_on: aws
